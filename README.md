@@ -84,14 +84,22 @@ pyinstaller --name="Motivate Diariamente" --icon=icon.ico --windowed --onefile m
 
 ## 📦 Dependencias
 
-- Python 3.x
-- customtkinter
-- tkcalendar
-- pillow
-- Fuentes de emoji según el sistema operativo:
-  - Windows: Segoe UI Emoji
-  - macOS: Apple Color Emoji
-  - Linux: Noto Color Emoji
+-# GUI y Widgets
+customtkinter>=5.2.0
+tkcalendar>=1.6.1
+Pillow>=10.0.0
+
+# Procesamiento de datos
+numpy>=1.24.0  # Requerido por algunas dependencias internas
+
+# Utilidades del sistema
+darkdetect>=0.7.1  # Para detección del tema del sistema
+babel>=2.12.1      # Para localización y formateo de fechas
+
+# Dependencias de desarrollo
+pyinstaller>=6.2.0  # Para crear ejecutables
+setuptools>=68.0.0  # Para empaquetado
+wheel>=0.41.0      # Para distribución
 
 ## 💾 Estructura de Datos
 
