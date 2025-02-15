@@ -1,0 +1,79 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de la aplicación
+motivate_diariamente_data.json
+backups/*
+!backups/.gitkeep
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+build/
+dist/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entornos virtuales
+venv/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Archivos de log
+*.log
+logs/
+log/
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Archivos de configuración local
+config.local.ini
+settings.local.json
+
+# Archivos de caché
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos específicos de Windows
+*.exe
+*.dll
+*.pyd
